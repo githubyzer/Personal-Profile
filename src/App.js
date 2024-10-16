@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, NavLink } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Home from './Components/Home';
@@ -13,15 +13,22 @@ function App() {
     <Router>
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <Link className="navbar-brand" to="/">Profile</Link>
           <div className="navbar-nav">
-            <Link className="nav-link" to="/">Home</Link>
-            <Link className="nav-link" to="/about">About</Link>
-            <Link className="nav-link" to="/skills">Skills</Link>
-            <Link className="nav-link" to="/contact">Contact</Link>
+            <NavLink className="nav-link" to="/" end>
+              Home
+            </NavLink>
+            <NavLink className="nav-link" to="/about">
+              About
+            </NavLink>
+            <NavLink className="nav-link" to="/skills">
+              Skills
+            </NavLink>
+            <NavLink className="nav-link" to="/contact">
+              Contact
+            </NavLink>
           </div>
         </nav>
-        
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

@@ -1,9 +1,28 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Arial', sans-serif;
 }
 
 .container {
   max-width: 800px;
   margin: auto;
+}
+
+.nav-link {
+  color: inherit; 
+  font-weight: normal;
+  text-decoration: none;
+  margin-right: 15px;
+  padding-bottom: 2px;
+  transition: color 0.3s ease, font-weight 0.3s ease;
+}
+
+.nav-link.active {
+  font-weight: bold; /* Make text bold */
+  color: #beddff; /* active state */
+}
+
+.nav-link:hover {
+  color: #419dff; /* Slightly darker blue on hover */
 }
