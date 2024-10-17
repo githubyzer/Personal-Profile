@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
+import { FaReact } from 'react-icons/fa';
 
 const SubmissionSuccess = () => {
   const { state } = useLocation();
@@ -10,6 +11,9 @@ const SubmissionSuccess = () => {
       <p>Your message has been sent successfully.</p>
       <p><strong>Email:</strong> {state.email}</p>
       <p><strong>Message:</strong> {state.message}</p>
+      <div className="made-with-react mt-5">
+        <p>Made with<FaReact className="react-logo" /><a href="https://react.dev/"><span><b>React</b></span></a></p>
+      </div>
     </div>
   );
 };
