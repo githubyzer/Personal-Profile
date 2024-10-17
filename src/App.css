@@ -46,7 +46,7 @@ body {
 /* Remove underline and set base styles for links */
 a {
   text-decoration: none;
-  color: black; /* Set your default link color */
+  color: black;
   transition: color 0.5s ease;
   font-weight: 700;
 }
@@ -54,6 +54,7 @@ a {
 /* Rainbow effect on hover */
 a:hover {
   animation: rainbow 1.5s infinite linear;
+  transition: 1s ease-in-out;
 }
 
 /* Define the rainbow animation */
@@ -65,4 +66,28 @@ a:hover {
   66.7% { color: blue; }
   83.4% { color: indigo; }
   100% { color: violet; }
+}
+
+/* Base style for input fields */
+input, textarea {
+  border: 2px solid black; /* Default border */
+  outline: none; /* Remove the default outline */
+  transition: border-color 0.5s ease, box-shadow 0.5s ease;
+}
+
+/* Apply rainbow animation on focus */
+input:focus, textarea:focus {
+  animation: rainbow-border 1.5s infinite linear;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Define the rainbow border animation */
+@keyframes rainbow-border {
+  0% { border-color: red; }
+  16.7% { border-color: orange; }
+  33.4% { border-color: yellow; }
+  50% { border-color: green; }
+  66.7% { border-color: blue; }
+  83.4% { border-color: indigo; }
+  100% { border-color: violet; }
 }
