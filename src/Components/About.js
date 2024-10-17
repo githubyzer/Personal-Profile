@@ -18,7 +18,7 @@ const About = () => {
         <li>I have two cats named Sisa and Tambay.</li>
         <li>I am born on May 19, 2004 in Carmona, Cavite.</li>
         <li>I love music and stan multiple groups. 
-        <a href="https://www.instagram.com/blackpinkofficial"><span>BLACKPINK</span></a>, 
+        <a href="https://www.instagram.com/blackpinkofficial"><span> BLACKPINK</span></a>, 
         <a href="https://www.instagram.com/yg_treasure_official"><span> TREASURE</span></a>, and 
         <a href="https://www.instagram.com/meovv"><span> MEOVV</span></a> are my ultimates.
         </li>
