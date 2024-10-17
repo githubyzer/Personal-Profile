@@ -12,14 +12,14 @@ const About = () => {
       <h2><b>Random Facts About Yzer </b></h2>
       <p>
       <ul>
-        <li>I am an INTP-A. Imaginative and curious, people with the INTP personality type can find endless fascination in the workings of their own mind.</li>
+        <li>My MBTI personality type is <b>INTP-A</b>. Imaginative and curious, people with the INTP personality type can find endless fascination in the workings of their own mind.</li>
         <li>I am a dancer and a proud member of <a href="https://www.facebook.com/iddc.aca"><span><b>Indak Dangal Dance Company</b></span></a>.</li>
         <li>I have two cats named Sisa and Tambay.</li>
         <li>I am born on May 19, 2004 in Carmona, Cavite.</li>
         <li>I love music and stan multiple groups. 
-        <a href="https://www.instagram.com/blackpinkofficial"><span>BLACKPINK</span></a>,
-        <a href="https://www.instagram.com/yg_treasure_official"><span> TREASURE</span></a>, and
-        <a href="https://www.instagram.com/meovv"><span> MEOVV</span></a> are my ultimates.
+        <a href="https://www.instagram.com/blackpinkofficial"><span>BLACKPINK</span></a>, 
+        <a href="https://www.instagram.com/yg_treasure_official"><span>TREASURE</span></a>, and 
+        <a href="https://www.instagram.com/meovv"><span>MEOVV</span></a> are my ultimates.
         </li>
       </ul>
       </p>
