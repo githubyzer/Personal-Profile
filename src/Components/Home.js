@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebookF, FaInstagram, FaTwitter, FaDiscord } from 'react-icons/fa'; // Importing social media icons
+import { FaFacebookF, FaInstagram, FaTwitter, FaDiscord, FaGithub } from 'react-icons/fa'; // Importing social media icons
 
 const Home = () => {
   return (
@@ -26,6 +26,10 @@ const Home = () => {
           <li style={{ margin: '10px' }}>
             <FaDiscord style={{ color: 'black', marginRight: '8px' }} />
             <span>@ice_jake</span>
+          </li>
+          <li style={{ margin: '10px' }}>
+            <FaGithub style={{ color: 'black', marginRight: '8px' }} />
+            <a href="https://github.com/githubyzer"><span>githubYzer</span></a>
           </li>
         </ul>
       </div>
