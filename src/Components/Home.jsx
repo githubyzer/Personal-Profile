@@ -25,7 +25,7 @@ const Home = () => {
           </li>
           <li style={{ margin: '10px' }}>
             <FaDiscord style={{ color: 'black', marginRight: '8px' }} />
-            <span>@ice_jake</span>
+            <span><b>@ice_jake</b></span>
           </li>
           <li style={{ margin: '10px' }}>
             <FaGithub style={{ color: 'black', marginRight: '8px' }} />
