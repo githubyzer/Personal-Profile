@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebookF, FaInstagram, FaTwitter, FaDiscord, FaGithub } from 'react-icons/fa'; // Importing social media icons
+import { FaFacebookF, FaInstagram, FaTwitter, FaDiscord, FaGithub, FaReact } from 'react-icons/fa'; // Importing social media icons
 
 const Home = () => {
   return (
@@ -32,6 +32,10 @@ const Home = () => {
             <a href="https://github.com/githubyzer"><span>githubYzer</span></a>
           </li>
         </ul>
+      </div>
+
+      <div className="made-with-react mt-5">
+        <p>Made with<FaReact className="react-logo" /><a href="https://react.dev/"><span><b>React</b></span></a></p>
       </div>
     </div>
   );

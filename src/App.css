@@ -26,3 +26,19 @@ body {
 .nav-link:hover {
   color: #419dff; /* Slightly darker blue on hover */
 }
+
+.react-logo {
+  color: black;
+  margin-left: 5px;
+  margin-right: 5px;
+  animation: spin 5s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

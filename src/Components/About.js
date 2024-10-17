@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaReact } from 'react-icons/fa';
 
 const About = () => {
   return (
@@ -23,6 +24,9 @@ const About = () => {
         </li>
       </ul>
       </p>
+      <div className="made-with-react mt-5">
+        <p>Made with<FaReact className="react-logo" /><a href="https://react.dev/"><span><b>React</b></span></a></p>
+      </div>
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { FaReact } from 'react-icons/fa';
 
 const Contact = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -31,7 +32,7 @@ const Contact = () => {
 
   return (
     <div className="mt-5">
-      <h1><b>Send me a message through this form: </b></h1>
+      <h1><b>Send me a message ✉</b></h1>
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
           <label htmlFor="name" className="form-label">Name</label>
@@ -74,6 +75,9 @@ const Contact = () => {
 
         <button type="submit" className="btn btn-primary">Submit</button>
       </form>
+      <div className="made-with-react mt-5">
+        <p>Made with<FaReact className="react-logo" /><a href="https://react.dev/"><span><b>React</b></span></a></p>
+      </div>
     </div>
   );
 };
