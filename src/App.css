@@ -15,7 +15,7 @@ body {
   text-decoration: none;
   margin-right: 15px;
   padding-bottom: 2px;
-  transition: color 0.3s ease, font-weight 0.3s ease;
+  transition: color 0.3s ease;
 }
 
 .nav-link.active {
