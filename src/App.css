@@ -19,12 +19,11 @@ body {
 }
 
 .nav-link.active {
-  font-weight: bold; /* Make text bold */
   color: #beddff; /* active state */
 }
 
 .nav-link:hover {
-  color: #419dff; /* Slightly darker blue on hover */
+  font-weight: bold; /* Make text bold */
 }
 
 .react-logo {
@@ -55,7 +54,6 @@ a {
 /* Rainbow effect on hover */
 a:hover {
   animation: rainbow 1.5s infinite linear;
-  transition: 1s ease-in-out;
 }
 
 /* Define the rainbow animation */
